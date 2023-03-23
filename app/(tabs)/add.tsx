@@ -5,9 +5,10 @@ import {
   SafeAreaView,
   TextInput,
   TouchableOpacity,
+  View,
+  Text,
 } from "react-native";
 import { addItem } from "../../api";
-import { Text, View } from "../../components/Themed";
 
 export default function TabTwoScreen() {
   const [text, onChangeText] = useState<string>("");
@@ -31,11 +32,13 @@ export default function TabTwoScreen() {
         <View className="border-t-[1px] border-gray-200 w-full" />
         <TextInput
           placeholder="Your text"
+          placeholderTextColor={"rgb(156, 163, 175)"}
           className="px-3 py-5 text-lg border-[1px] rounded-md"
           style={{ lineHeight: undefined }}
           value={text}
           onChangeText={onChangeText}
           autoFocus
+          ke
         />
         <TouchableOpacity
           className="mt-5 active:bg-slate-700"
