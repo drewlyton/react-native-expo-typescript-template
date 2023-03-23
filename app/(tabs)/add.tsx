@@ -38,7 +38,6 @@ export default function TabTwoScreen() {
           value={text}
           onChangeText={onChangeText}
           autoFocus
-          ke
         />
         <TouchableOpacity
           className="mt-5 active:bg-slate-700"
