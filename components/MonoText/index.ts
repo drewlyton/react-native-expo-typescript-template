@@ -1,0 +1,1 @@
+export { MonoText } from "./MonoText";
