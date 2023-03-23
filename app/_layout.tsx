@@ -10,7 +10,7 @@ import { useEffect } from "react";
 import { useColorScheme } from "react-native";
 import NetInfo from "@react-native-community/netinfo";
 import { onlineManager } from "@tanstack/react-query";
-import { QueryProvider } from "../services/QueryProvider";
+import { QueryProvider } from "../api";
 
 export {
   // Catch any errors thrown by the Layout component.
