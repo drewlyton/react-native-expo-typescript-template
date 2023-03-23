@@ -4,11 +4,10 @@ import {
   DefaultTheme,
   ThemeProvider,
 } from "@react-navigation/native";
-import { useFonts } from "expo-font";
+import { useFonts, FontSource } from "expo-font";
 import { SplashScreen, Stack } from "expo-router";
 import { useEffect } from "react";
 import { useColorScheme } from "react-native";
-import SpaceMono from "assets/fonts/SpaceMono-Regular.ttf";
 import NetInfo from "@react-native-community/netinfo";
 import { onlineManager } from "@tanstack/react-query";
 
@@ -30,7 +29,7 @@ onlineManager.setEventListener((setOnline) => {
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({
-    SpaceMono,
+    SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf") as FontSource,
     ...FontAwesome.font,
   });
 
