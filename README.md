@@ -8,3 +8,4 @@
 - [TailwindCSS](https://tailwindcss.com/) (via [NativeWind](https://www.nativewind.dev/))
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
+- [React Query](https://tanstack.com/query/v4/docs/react/react-native)
