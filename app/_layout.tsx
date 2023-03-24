@@ -23,7 +23,8 @@ onlineManager.setEventListener((setOnline) => {
 
 export default function RootLayout() {
   const [loaded, error] = useFonts({
-    SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf") as FontSource,
+    SpaceMono:
+      require("../src/assets/fonts/SpaceMono-Regular.ttf") as FontSource,
     ...FontAwesome.font,
   });
 
