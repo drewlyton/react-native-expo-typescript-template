@@ -1,6 +1,6 @@
 import { useQuery } from "@tanstack/react-query";
 import { FlatList, SafeAreaView, Text, View } from "react-native";
-import { getItems, IItem } from "../../api";
+import { getItems, IItem } from "../../src/api";
 
 const Item: React.FC<{ item: IItem }> = ({ item }) => {
   return (

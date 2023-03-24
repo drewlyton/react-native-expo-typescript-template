@@ -6,7 +6,7 @@ import { FontSource, useFonts } from "expo-font";
 import { SplashScreen, Stack } from "expo-router";
 import { useEffect } from "react";
 import { useColorScheme } from "react-native";
-import { QueryProvider } from "../api";
+import { QueryProvider } from "../src/api";
 
 export { ErrorBoundary } from "expo-router";
 

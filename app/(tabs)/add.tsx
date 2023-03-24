@@ -8,7 +8,7 @@ import {
   View,
   Text,
 } from "react-native";
-import { addItem } from "../../api";
+import { addItem } from "../../src/api";
 
 export default function TabTwoScreen() {
   const [text, onChangeText] = useState<string>("");
